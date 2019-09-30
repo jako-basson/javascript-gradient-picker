@@ -1,0 +1,35 @@
+{
+	"name": "javascript-gradient-picker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --config webpack.dev.js --open",
+		"build": "webpack --config webpack.build.js"
+	},
+	"author": "Jako Basson",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"babel-loader": "^8.0.6",
+		"css-loader": "^3.2.0",
+		"file-loader": "^4.2.0",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"mini-css-extract-plugin": "^0.8.0",
+		"node-sass": "^4.12.0",
+		"optimize-css-assets-webpack-plugin": "^5.0.3",
+		"prismjs": "^1.17.1",
+		"sass-loader": "^8.0.0",
+		"style-loader": "^1.0.0",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.7",
+		"webpack-dev-server": "^3.8.0",
+		"webpack-merge": "^4.2.2"
+	},
+	"dependencies": {
+		"@simonwep/pickr": "^1.4.2",
+		"clean-webpack-plugin": "^3.0.0"
+	}
+}
